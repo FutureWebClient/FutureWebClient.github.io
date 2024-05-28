@@ -4,66 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Future Client</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Future Client</h1>
-            <h2>The #1 Unified WebUI Roblox Executor</h2>
-        </header>
-        <nav class="sidebar">
-            <ul>
-                <li><a href="#dashboard">Dashboard</a></li>
-                <li><a href="#purchase">Purchase</a></li>
-                <li><a href="#settings">Settings</a></li>
-                <li><a href="#features">Features</a></li>
-            </ul>
-        </nav>
-        <main>
-            <section id="dashboard">
-                <h2>Dashboard</h2>
-                <p>Show the amount of people that have viewed the website, purchased "Future Client", user ID, and current version (v1.1)</p>
-            </section>
-            <section id="purchase">
-                <h2>Purchase</h2>
-                <p>Coming soon</p>
-            </section>
-            <section id="settings">
-                <h2>Settings</h2>
-                <p>Change theme from black to white (dark theme/light theme). More options released when the webgui is ready for release/purchase.</p>
-            </section>
-            <section id="features">
-                <h2>Features</h2>
-                <div class="feature">
-                    <h3>🚀 Introducing FUTURE CLIENT 🚀</h3>
-                    <p>Future Client is a cutting-edge vape dedicated executor, designed to revolutionize your scripting experience. Combining the best of both worlds, it offers unparalleled support for vape and vape configs, making it the ultimate tool for script execution.</p>
-                    <h4>💎 Why Future Client?</h4>
-                    <ul>
-                        <li>Unified Executor: No need for separate projects. Future Client integrates everything you need in one place.</li>
-                        <li>Universal Script Support: Execute vape scripts and basic developer/UNC scripts with ease.</li>
-                        <li>AI-Powered Module Creation: Premium and Developer users can leverage AI to create custom modules and configs.</li>
-                        <li>Extensive Config Library: Access a wide range of pre-made configs for various games.</li>
-                        <li>Comprehensive Guides: Step-by-step guides to enhance your scripting experience.</li>
-                    </ul>
-                    <h4>🌟 Tiered Access Levels</h4>
-                    <ul>
-                        <li>Default: Access basic configs with some limitations.</li>
-                        <li>Premium: Unlock custom modules, AI-assisted config creation, and more.</li>
-                        <li>Developer: Enjoy unlimited AI access, early feature releases, and advanced tools.</li>
-                    </ul>
-                    <h4>🔧 Technical Excellence</h4>
-                    <ul>
-                        <li>Enhanced execution engine for maximum compatibility.</li>
-                        <li>Dynamic resource allocation for optimal performance.</li>
-                        <li>Secure environment with built-in safety features.</li>
-                        <li>Modular architecture for easy updates.</li>
-                        <li>Real-time debugging tools.</li>
-                    </ul>
-                    <p>Get Ready For The Future of Script Execution With Future Client The #1 Unified Web-UI Executor 🌟</p>
+    <div id="app">
+        <!-- Your existing HTML content here -->
+        <div class="container">
+            <div class="sidebar">
+                <h2>FUTURE</h2>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Modules</a></li>
+                    <li><a href="#">Configs</a></li>
+                    <li><a href="#">Tickets</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="header">
+                    <button>DESTRUCT</button>
+                    <button>SWITCH THEME</button>
+                    <button>POP OUT</button>
+                    <button>PUBLISH CONFIG</button>
                 </div>
-            </section>
-        </main>
+                <div class="modules">
+                    <div class="module"><span>Clicker</span></div>
+                    <div class="module"><span>Reach</span></div>
+                    <div class="module"><span>Aim Assist</span></div>
+                    <div class="module"><span>Blink</span></div>
+                    <div class="module"><span>ESP</span></div>
+                    <div class="module"><span>Tracers</span></div>
+                    <div class="module"><span>X-Ray</span></div>
+                    <div class="module"><span>Velocity</span></div>
+                    <div class="module"><span>B-Hop</span></div>
+                    <div class="module"><span>Bridge Assist</span></div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="script.js"></script>
+    <script src="auth.js"></script>
 </body>
 </html>
+<!-- Add this to the Logout link -->
+<li><a href="#" id="logout">Logout</a></li>
