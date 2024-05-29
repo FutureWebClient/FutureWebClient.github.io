@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Client</title>
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+  <div id="app">
+    <div class="header">
+      <img src="logo.png" alt="Future Client Logo" class="logo">
+      <h1>Future Client</h1>
+    </div>
+    <div id="login">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+    </div>
+    <div id="executor" style="display: none;">
+      <h2>Script Executor</h2>
+      <textarea id="script" placeholder="Enter your script here"></textarea>
+      <button onclick="executeScript()">Execute Script</button>
+    </div>
+  </div>
+  <script src="src/js/main.js"></script>
+</body>
+</html>
